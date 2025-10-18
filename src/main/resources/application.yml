@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: moon
+
+coin:
+  api-key: ${COIN_API_KEY}
+  base-url: "https://api.coingecko.com/api/v3/coins/markets"
+
